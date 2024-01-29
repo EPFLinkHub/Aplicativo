@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>F.A.Q</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="/assets/img/Logos/Favicon.png" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="/assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="./assets/page/Perfil.html" class="logo d-flex align-items-center">
+        <img src="/assets/img/Logos/EPF.png" alt="">
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Procurar" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              Você tem 4 novas notificações
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">Ver tudo</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>EPFundão</h4>
+                <p>Este é um exemplo de página sem conteúdo.</p>
+                <p>30 minutoa</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>EPFundão</h4>
+                <p>Este é um exemplo de página sem conteúdo.</p>
+                <p>1 horas</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>EPFundão</h4>
+                <p>Este é um exemplo de página sem conteúdo.</p>
+                <p>2 horas</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>EPFundão</h4>
+                <p>Este é um exemplo de página sem conteúdo.</p>
+                <p>4 horas</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Mostrar todas as notificações</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-chat-left-text"></i>
+            <span class="badge bg-success badge-number">3</span>
+          </a><!-- End Messages Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+            <li class="dropdown-header">
+              Você tem 3 novas mensagens
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">Ver tudo</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="/assets/img/Logos/Favicon.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>EPFundão</h4>
+                  <p>Este é um exemplo de página sem conteúdo. Você pode usá-lo como ponto de partida para suas páginas personalizadas.</p>
+                  <p>8 horas.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="/assets/img/Logos/Favicon.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>EPFundão</h4>
+                  <p>Este é um exemplo de página sem conteúdo. Você pode usá-lo como ponto de partida para suas páginas personalizadas.</p>
+                  <p>8 horas.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="message-item">
+              <a href="#">
+                <img src="/assets/img/Logos/Favicon.png" alt="" class="rounded-circle">
+                <div>
+                  <h4>EPFundão</h4>
+                  <p>Este é um exemplo de página sem conteúdo. Você pode usá-lo como ponto de partida para suas páginas personalizadas.</p>
+                  <p>8 horas.</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="dropdown-footer">
+              <a href="#">Mostrar todas as mensagens</a>
+            </li>
+
+          </ul><!-- End Messages Dropdown Items -->
+
+        </li><!-- End Messages Nav -->
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="/assets/img/Logos/Favicon.png" alt="Profile" class="rounded-circle">
+            <span class="d-none d-md-block dropdown-toggle ps-2">EPFundão</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>EPFundão</h6>
+              <span>Escola</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="/assets/page/Idioma-Portugues/Perfil.html">
+                <i class="bi bi-person"></i>
+                <span>Meu perfil</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="/assets/page/Idioma-Portugues/Perfil.html">
+                <i class="bi bi-gear"></i>
+                <span>Configurações de Conta</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="/assets/page/Idioma-Portugues/F.A.Q.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Preciso de ajuda?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="/assets/page/index-Inglês.html">
+                <i class="ri-english-input"></i>
+                <span>Idioma</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="/assets/page/Idioma-Portugues/Conecte-se.html">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sair</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-heading">Páginas</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/index.html">
+          <i class="bi bi-grid"></i>
+          <span>Painel</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/assets/page/Idioma-Portugues/Perfil.html">
+          <i class="bi bi-person"></i>
+          <span>Perfil</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="/assets/page/Idioma-Portugues/F.A.Q.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/assets/page/Idioma-Portugues/Contatos.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contatos</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/assets/page/Idioma-Portugues/Registro.html">
+          <i class="bi bi-card-list"></i>
+          <span>Register</span>
+        </a>
+      </li><!-- End Register Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/assets/page/Idioma-Portugues/Conecte-se.html">
+          <i class="bi bi-box-arrow-in-right"></i>
+          <span>Conecte-se</span>
+        </a>
+      </li><!-- End Login Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/assets/page/Idioma-Portugues/Não encontrado 404.html">
+          <i class="bi bi-dash-circle"></i>
+          <span>Error 404</span>
+        </a>
+      </li><!-- End Error 404 Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="/assets/page/Idioma-Portugues/Em-branco.html">
+          <i class="bi bi-file-earmark"></i>
+          <span>Em branco</span>
+        </a>
+      </li><!-- End Blank Page Nav -->
+
+      <li class="nav-heading">Outros</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/assets/Outros/components-alerts.html">
+              <i class="bi bi-circle"></i><span>Alerts</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-accordion.html">
+              <i class="bi bi-circle"></i><span>Accordion</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-badges.html">
+              <i class="bi bi-circle"></i><span>Badges</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-breadcrumbs.html">
+              <i class="bi bi-circle"></i><span>Breadcrumbs</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-buttons.html">
+              <i class="bi bi-circle"></i><span>Buttons</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-cards.html">
+              <i class="bi bi-circle"></i><span>Cards</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-carousel.html">
+              <i class="bi bi-circle"></i><span>Carousel</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-list-group.html">
+              <i class="bi bi-circle"></i><span>List group</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-modal.html">
+              <i class="bi bi-circle"></i><span>Modal</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-tabs.html">
+              <i class="bi bi-circle"></i><span>Tabs</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-pagination.html">
+              <i class="bi bi-circle"></i><span>Pagination</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-progress.html">
+              <i class="bi bi-circle"></i><span>Progress</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-spinners.html">
+              <i class="bi bi-circle"></i><span>Spinners</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/components-tooltips.html">
+              <i class="bi bi-circle"></i><span>Tooltips</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Components Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-journal-text"></i><span>Forms</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/assets/Outros/forms-elements.html">
+              <i class="bi bi-circle"></i><span>Form Elements</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/forms-layouts.html">
+              <i class="bi bi-circle"></i><span>Form Layouts</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/forms-editors.html">
+              <i class="bi bi-circle"></i><span>Form Editors</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/forms-validation.html">
+              <i class="bi bi-circle"></i><span>Form Validation</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Forms Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/assets/Outros/tables-general.html">
+              <i class="bi bi-circle"></i><span>General Tables</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/tables-data.html">
+              <i class="bi bi-circle"></i><span>Data Tables</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bar-chart"></i><span>Charts</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/assets/Outros/charts-chartjs.html">
+              <i class="bi bi-circle"></i><span>Chart.js</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/charts-apexcharts.html">
+              <i class="bi bi-circle"></i><span>ApexCharts</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/charts-echarts.html">
+              <i class="bi bi-circle"></i><span>ECharts</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Charts Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="/assets/Outros/icons-bootstrap.html">
+              <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/icons-remix.html">
+              <i class="bi bi-circle"></i><span>Remix Icons</span>
+            </a>
+          </li>
+          <li>
+            <a href="/assets/Outros/icons-boxicons.html">
+              <i class="bi bi-circle"></i><span>Boxicons</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Icons Nav -->
+      
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Perguntas Frequentes</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/index.html">Lar</a></li>
+          <li class="breadcrumb-item">Páginas</li>
+          <li class="breadcrumb-item active">perguntas frequentes</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section faq">
+      <div class="row">
+        <div class="col-lg-6">
+        
+          <!-- F.A.Q Group 1 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Conta e Registro</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-1">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-1" type="button" data-bs-toggle="collapse">
+                      1 - Como criar uma conta no site?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      <p>• Iniciar sua jornada conosco é simples. Siga estes passos:</p>
+                        <ul>
+                          <p>1.1. Acesse a página de registro no site.</p>
+                          <p>1.2. Preencha os campos obrigatórios com suas informações.</p>
+                          <p>1.3. Escolha um nome de usuário exclusivo e uma senha segura.</p>
+                          <p>1.4. Complete o processo de verificação, se necessário.</p>
+                          <p>1.5. Finalize o registro e comece a desfrutar dos benefícios da sua nova conta.</p>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-2" type="button" data-bs-toggle="collapse">
+                      2 - Como faço para redefinir a minha senha?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      <p>• Em caso de esquecimento da senha, siga estas instruções:</p>
+                        <ul>
+                          <p>2.1. Acesse a página de login.</p>
+                          <p>2.2. Selecione a opção "Esqueceu a senha?".</p>
+                          <p>2.3. Insira o e-mail associado à sua conta.</p>
+                          <p>2.4. Verifique a sua caixa de entrada para as instruções de redefinição.</p>
+                          <p>2.5. Siga o link fornecido e defina uma nova senha segura.</p>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-3" type="button" data-bs-toggle="collapse">
+                      3 - Posso alterar as informações da minha conta?                    
+                    </button>
+                  </h2>
+                  <div id="faqsOne-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      <p>• Sim, é fácil atualizar seus dados:</p>
+                        <ul>
+                          <p>3.1. Efetue o login na sua conta.</p>
+                          <p>3.2. Vá para as configurações da conta ou perfil.</p>
+                          <p>3.3. Localize a seção que deseja alterar.</p>
+                          <p>3.4. Faça as modificações necessárias.</p>
+                          <p>3.5. Não se esqueça de salvar para aplicar as alterações.</p>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-4" type="button" data-bs-toggle="collapse">
+                      4 - É possível usar minha conta em vários dispositivos?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      <p>• Sim, proporcionamos flexibilidade de acesso:</p>
+                        <ul>
+                          <p>4.1. Faça login em sua conta em qualquer dispositivo.</p>
+                          <p>4.2. Não há limitações quanto ao número de dispositivos.</p>
+                          <p>4.3. Mantenha suas credenciais seguras para garantir a segurança.</p>
+                          <p>4.4. Se surgirem problemas, consulte nossa seção de suporte para assistência.</p>
+                        </ul>                    
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsOne-5" type="button" data-bs-toggle="collapse">
+                      5 - Como posso excluir minha conta?
+                    </button>
+                  </h2>
+                  <div id="faqsOne-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-1">
+                    <div class="accordion-body">
+                      <p>• Se decidir encerrar sua conta, siga estas orientações:</p>
+                        <ul>
+                          <p>5.1. Faça login na sua conta.</p>
+                          <p>5.2. Vá para as configurações da conta ou perfil.</p>
+                          <p>5.3. Procure a opção de exclusão de conta.</p>
+                          <p>5.4. Siga as instruções para confirmar a exclusão.</p>
+                          <p>5.5 Lembre-se de que esta ação é irreversível, e seus dados serão removidos permanentemente.</p>
+                        </ul>                    
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 1 -->
+
+          <!-- F.A.Q Group 2 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Navegação e Usabilidade:</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-2">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-1" type="button" data-bs-toggle="collapse">
+                      1 - Como encontrar informações específicas no site?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      <p>• Navegar pelo nosso site é fácil. Siga estas dicas:</p>
+                      <ul>
+                        <p>1.1. Utilize a barra de pesquisa para consultas diretas.</p>
+                        <p>1.2. Explore as categorias e seções relevantes.</p>
+                        <p>1.3. Revise os menus de navegação para encontrar informações específicas.</p>
+                        <p>1.4. Confira nossa página de Perguntas Frequentes (FAQ) para orientações adicionais.</p>
+                        <p>1.5 Caso tenha dificuldades, entre em contato com nosso suporte para assistência personalizada.</p>
+                      </ul> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-2" type="button" data-bs-toggle="collapse">
+                      2 - Posso personalizar minha experiência de usuário?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      <ul>
+                        <p>2.1. Acesse as configurações da sua conta.</p>
+                        <p>2.2. Explore opções de personalização, como tema, idioma, ou preferências.</p>
+                        <p>2.3. Salve suas preferências para que cada visita ao site seja única.</p>
+                        <p>2.4. Experimente diferentes configurações até encontrar a que melhor se adequa a você.</p>
+                        <p>2.5. Estamos constantemente melhorando, então, dê-nos feedback sobre como podemos aprimorar ainda mais sua experiência.</p>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-3" type="button" data-bs-toggle="collapse">
+                      3 - Existe um tutorial ou guia de início rápido?                    
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      <p>• Sim, facilitamos o início para você. Consulte:</p>
+                        <ul>
+                          <p>3.1. Nosso guia de início rápido na seção de Ajuda ou Suporte.</p>
+                          <p>3.2. Tutoriais em vídeo disponíveis em nosso canal oficial.</p>
+                          <p>3.3. Páginas informativas que explicam os recursos principais.</p>
+                          <p>3.4. Dicas e truques em nosso blog ou fórum da comunidade.</p>
+                          <p>3.5. Se precisar de ajuda adicional, entre em contato com nossa equipe de suporte dedicada.</p>
+                        </ul> 
+                      </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-4" type="button" data-bs-toggle="collapse">
+                      4 - Como faço para entrar em contato com o suporte?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      <p>• Estamos aqui para ajudar. Siga estas etapas:</p>
+                      <ul>
+                        <p>4.1. Visite a página de suporte em nosso site.</p>
+                        <p>4.2. Encontre as opções de contato, como e-mail, chat ao vivo ou formulário online.</p>
+                        <p>4.3. Forneça detalhes claros sobre sua consulta ou problema.</p>
+                        <p>4.4. Nossa equipe responderá prontamente para resolver suas dúvidas.</p>
+                        <p>4.5. Revise regularmente suas mensagens de suporte para atualizações.</p>
+                      </ul>                       
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsTwo-5" type="button" data-bs-toggle="collapse">
+                      5 - Qual é a política de privacidade do site?
+                    </button>
+                  </h2>
+                  <div id="faqsTwo-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-2">
+                    <div class="accordion-body">
+                      <p>• Sua privacidade é nossa prioridade. Leia nossa política:</p>
+                        <ul>
+                          <p>5.1. Acesse a página de Política de Privacidade no rodapé do site.</p>
+                          <p>5.2. Familiarize-se com as práticas de coleta e uso de dados.</p>
+                          <p>5.3. Descubra como protegemos suas informações pessoais.</p>
+                          <p>5.4. Encontre informações sobre cookies e tecnologias de rastreamento.</p>
+                          <p>5.5. Em caso de dúvidas, entre em contato conosco para esclarecimentos adicionais.</p>
+                        </ul>                    
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 2 -->
+
+        </div>
+
+
+        <div class="col-lg-6">
+
+          <div class="card basic">
+            <div class="card-body">
+              <h5 class="card-title">Segurança e Privacidade:</h5>
+
+              <div>
+                <h6>1. Como o site protege minhas informações pessoais?</h6>
+                <p>Mantemos transparência sobre nossas práticas de privacidade por meio da nossa Política de Privacidade. Se houver qualquer alteração significativa nas políticas de privacidade, comunicamos aos usuários de forma clara e proativa.</p>
+              </div>
+
+              <div class="pt-2">
+                <h6>2. Quais medidas de segurança estão em vigor durante a navegação?</h6>
+                 <p>Criptografia Segura: Utilizamos protocolos de criptografia robustos para proteger suas informações durante a transmissão. <br> Políticas de Acesso Restrito: Limitamos o acesso apenas a funcionários autorizados, com monitoramento rigoroso.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- F.A.Q Group 3 -->
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Produtos/Serviços:</h5>
+
+              <div class="accordion accordion-flush" id="faq-group-3">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-1" type="button" data-bs-toggle="collapse">
+                      1 - Quais são os principais produtos/serviços oferecidos?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-1" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      <p>• Descubra nossa variedade de produtos/serviços de alta qualidade:</p>
+                        <ul>
+                          <p>1.1. Explore nossa seção de catálogo para ver a gama completa.</p>
+                          <p>1.2. Filtragem por categorias facilita a localização do que você precisa.</p>
+                          <p>1.3. Obtenha detalhes sobre recursos e especificações de cada produto/serviço.</p>
+                          <p>1.4. Mantenha-se atualizado sobre novos lançamentos e ofertas especiais.</p>
+                          <p>1.5. Se precisar de orientação, nosso suporte está pronto para ajudar a encontrar a melhor opção para você.</p>
+                        </ul>                    
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-2" type="button" data-bs-toggle="collapse">
+                      2 - Como funciona o processo de compra?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-2" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      <p>• Facilitamos o processo de compra para sua conveniência:</p>
+                        <ul>
+                          <p>2.1. Selecione o produto/serviço desejado e adicione ao carrinho.</p>
+                          <p>2.2. Prossiga para o checkout e forneça as informações necessárias.</p>
+                          <p>2.3. Escolha o método de pagamento preferido e conclua a transação.</p>
+                          <p>2.4. Receba confirmação do pedido e informações de rastreamento.</p>
+                          <p>2.5. Consulte nossa seção de Perguntas Frequentes (FAQ) para informações adicionais sobre o processo de compra.</p>
+                        </ul>                   
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-3" type="button" data-bs-toggle="collapse">
+                      3 - Qual é a política de garantia?                 
+                    </button>
+                  </h2>
+                  <div id="faqsThree-3" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      <p>• Garantimos a qualidade e durabilidade dos nossos produtos/serviços:</p>
+                        <ul>
+                          <p>3.1. Consulte nossa página de garantia para entender os termos.</p>
+                          <p>3.2. Descubra a duração da garantia para cada produto/serviço.</p>
+                          <p>3.3. Saiba como acionar a garantia em caso de problemas.</p>
+                          <p>3.4. Mantenha cópias de recibos e informações de compra para referência.</p>
+                          <p>3.5. Estamos comprometidos em resolver qualquer problema dentro dos termos de garantia.</p>
+                        </ul>                  
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-4" type="button" data-bs-toggle="collapse">
+                      4 - Existem tutoriais ou FAQs específicas para os produtos/serviços?
+                    </button>
+                  </h2>
+                  <div id="faqsThree-4" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      <p>• Sim, facilitamos o aprendizado e o suporte contínuo:</p>
+                        <ul>
+                          <p>4.1. Confira nossos tutoriais detalhados sobre a configuração e uso.</p>
+                          <p>4.2. Acesse FAQs específicas para cada produto/serviço em nossa seção de suporte.</p>
+                          <p>4.3. Explore vídeos instrutivos em nosso canal oficial.</p>
+                          <p>4.4. Participe de nossa comunidade para compartilhar experiências e dicas.</p>
+                          <p>4.5. Se ainda tiver dúvidas, entre em contato com nossa equipe de suporte especializada.</p>
+                        </ul>                    
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#faqsThree-5" type="button" data-bs-toggle="collapse">
+                      5 - Posso devolver um produto se não estiver satisfeito?                    
+                    </button>
+                  </h2>
+                  <div id="faqsThree-5" class="accordion-collapse collapse" data-bs-parent="#faq-group-3">
+                    <div class="accordion-body">
+                      <p>• Garantimos sua satisfação com nossa política de devolução:</p>
+                        <ul>
+                          <p>5.1. Leia nossa política de devolução para entender os prazos e condições.</p>
+                          <p>5.2. Inicie o processo de devolução através da sua conta no site.</p>
+                          <p>5.3. Siga as instruções para embalar e enviar o produto de volta.</p>
+                          <p>5.4. Receba um reembolso ou troca, dependendo da sua preferência.</p>
+                          <p>5.5. Em caso de dúvidas, entre em contato com nosso suporte para assistência personalizada.</p>
+                        </ul>                    
+                      </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div><!-- End F.A.Q Group 3 -->
+
+        </div>
+
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Direitos Autorais <strong><span>EPF</span></strong>. Todos os direitos reservados.
+    </div>
+    <div class="credits">
+      Projetado por <a href="https://github.com/asolipa365" target="_blank">António Solipa</a>.
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="/assets/vendor/echarts/echarts.min.js"></script>
+  <script src="/assets/vendor/quill/quill.min.js"></script>
+  <script src="/assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="/assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>
